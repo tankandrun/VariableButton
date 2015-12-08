@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "VariableButton.h"
 
-@interface ViewController ()
+@interface ViewController ()<VariableButtonDelegate>
 
 @end
 
@@ -17,6 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    VariableButton *button = [[VariableButton alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    button.delegate = self;
+    [self.view addSubview:button];
+    button.neededTime = 5;
+    button.beforeText = @"获取验证码";
+    button.afterText = @"重新获取";
+    button.setText = @"asjfas/s";
+    button.textColor = [UIColor redColor];
+}
+- (void)variableButtonClick {
+    NSLog(@"gogogo");
 }
 
 - (void)didReceiveMemoryWarning {

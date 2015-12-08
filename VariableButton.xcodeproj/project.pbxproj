@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A91E57021C1699D700009FB9 /* VariableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A91E57011C1699D700009FB9 /* VariableButton.m */; };
 		A94822741C167EB00077AB3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94822731C167EB00077AB3D /* main.m */; };
 		A94822771C167EB00077AB3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94822761C167EB00077AB3D /* AppDelegate.m */; };
 		A948227A1C167EB00077AB3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94822791C167EB00077AB3D /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A91E57001C1699D700009FB9 /* VariableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VariableButton.h; path = VariableButton/VariableButton.h; sourceTree = "<group>"; };
+		A91E57011C1699D700009FB9 /* VariableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VariableButton.m; path = VariableButton/VariableButton.m; sourceTree = "<group>"; };
 		A948226F1C167EB00077AB3D /* VariableButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VariableButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94822731C167EB00077AB3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A94822751C167EB00077AB3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				A94822761C167EB00077AB3D /* AppDelegate.m */,
 				A94822781C167EB00077AB3D /* ViewController.h */,
 				A94822791C167EB00077AB3D /* ViewController.m */,
+				A91E57001C1699D700009FB9 /* VariableButton.h */,
+				A91E57011C1699D700009FB9 /* VariableButton.m */,
 				A948227B1C167EB00077AB3D /* Main.storyboard */,
 				A948227E1C167EB00077AB3D /* Assets.xcassets */,
 				A94822801C167EB00077AB3D /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A948227A1C167EB00077AB3D /* ViewController.m in Sources */,
+				A91E57021C1699D700009FB9 /* VariableButton.m in Sources */,
 				A94822771C167EB00077AB3D /* AppDelegate.m in Sources */,
 				A94822741C167EB00077AB3D /* main.m in Sources */,
 			);
@@ -499,6 +505,7 @@
 				A948229E1C167EB00077AB3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A948229F1C167EB00077AB3D /* Build configuration list for PBXNativeTarget "VariableButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				A94822A11C167EB00077AB3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A94822A21C167EB00077AB3D /* Build configuration list for PBXNativeTarget "VariableButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				A94822A41C167EB00077AB3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
